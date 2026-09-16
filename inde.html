@@ -1,48 +1,352 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <body>
 
-    <div class="contenedor">
-     <div class="logo-prin">
-            <img src="FB93A604-09A4-48FF-B368-E75D6C3976B2.PNG" alt="Logo">
-        </div>
-        <h1 class="titulo">menu de juegos</h1>
-        <h3>
-          autor: daniel orrala
-            <br> 
-            Daniel-OR9</h3>
-                <h2 class="javaJs">programando con javascript</h2>
-                <h3>utilizamos el lenguaje de programación de javascript junto con nuestro ingenio y creatividad para crear
-                        <br>
-                             diversos sitios webs y juegos que demuestran nuestras habilidades y conocimientos en el desarrollo web.
-                         </h3>
-                            <h2 class="juego">Juego de Limones</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                                <a href="https://juego-limones-orcin.vercel.app/">
-                                <img src="7E2E8E1C-F527-4275-A5B3-EB851AACA745.GIF" alt="cubo_rebote" width="100px;">
-                                clic</img>
-                   
-                                    </a>            
-                                    <h3>
-                                    en el royecto de "juego_ limones" creamos un juego en el cual nuestro presonaje se mueve 
-                                    de un lado a otro para atrapar todos los limones posibles, la velocida aumenta a medida 
-                                    que avanza el juego
-                                    </h3>
-                                         <h2 class="juego">Juego Cazando</h2>
-                                    <a href="https://juego-cazando-azure.vercel.app/">
-                              <img src="BE29ABE0-67B7-42B7-888E-3F8BED29C442.GIF" alt="gato_gr" width="100px;">
-                             clic</img>
-                         </a>
-                     <h3>
-                        en el royecto de "cazando" creamos un juego en el cual controlamos a 
-                        nuestro presonaje para que se mueva de arriba a abajo y de isquerda a 
-                        derecha para atrape la comida, una ves atrapada esta reaparese en una 
-                        parte al azar del mapa 
-                        </h3>
-                        </div>
-                </body> 
-        </body>
-    </head>
+    <title>Menú de Juegos | Daniel OR9</title>
+
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body onload="iniciar()">
+
+    <div class="layout">
+
+        <!-- ==============================
+             MENÚ LATERAL
+        =============================== -->
+
+        <aside class="sidebar">
+
+            <div class="logo-menu">
+                <img
+                    src="ChatGPT Image 15 sept 2026, 08_03_51 p.m..png"
+                    alt="Daniel OR9 Gaming"
+                >
+
+                <h2>DANIEL <span>OR9</span></h2>
+
+                <p>GAME DEVELOPER</p>
+            </div>
+
+
+            <nav class="menu">
+
+                <a href="#" class="activo">
+                    <span>🏠</span>
+                    Inicio
+                </a>
+
+                <a href="#">
+                    <span>🎮</span>
+                    Juegos
+                </a>
+
+                <a href="#">
+                    <span>⭐</span>
+                    Nuevos
+                </a>
+
+                <a href="#">
+                    <span>🔥</span>
+                    Populares
+                </a>
+
+                <a href="#">
+                    <span>📁</span>
+                    Categorías
+                </a>
+
+                <a href="#">
+                    <span>👤</span>
+                    Perfil
+                </a>
+
+                <a href="#">
+                    <span>⚙️</span>
+                    Ajustes
+                </a>
+
+                <a href="#">
+                    <span>📞</span>
+                    Contacto
+                    
+                </a>
+
+                <a href="#">
+                    <span>🦊</span>
+                    Autor
+                </a>
+
+                <a href="#">
+                    <span>🧩</span>
+                    Proyectos
+                </a>
+
+            </nav>
+
+
+            <p class="sidebar-footer">
+                PLAY · CODE · CREATE
+            </p>
+
+        </aside>
+
+
+
+        <!-- ==============================
+             CONTENIDO PRINCIPAL
+        =============================== -->
+
+        <main class="contenedor">
+
+
+            <!-- CABECERA -->
+
+            <header class="cabecera">
+
+                <div class="icono-arcade">
+                    🕹️
+                </div>
+
+                <div>
+                    <h1 class="titulo">
+                        MENÚ DE JUEGOS
+                    </h1>
+
+                    <p>
+                        EXPLORA · JUEGA · DESCUBRE
+                    </p>
+                </div>
+
+            </header>
+
+
+
+            <!-- AUTOR -->
+
+            <section class="autor-card">
+
+                <div class="avatar">
+                    👤
+                </div>
+
+                <div class="autor-info">
+
+                    <h3>Autor: Daniel Orrala</h3>
+
+                    <h2>Daniel-OR9</h2>
+
+                    <p>
+                        DESARROLLADOR WEB Y CREADOR
+                        DE EXPERIENCIAS INTERACTIVAS
+                    </p>
+
+                </div>
+
+                <div class="frase">
+
+                    <span>“</span>
+
+                    <p>
+                        La creatividad también
+                        es una forma de jugar
+                    </p>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==============================
+                 JAVASCRIPT
+            =============================== -->
+
+            <section class="proyecto proyecto-js">
+
+                <div class="imagen-proyecto codigo-icono">
+                    &lt;/&gt;
+                </div>
+
+
+                <div class="proyecto-info">
+
+                    <h2 class="javaJs">
+                        Programando con JavaScript
+                    </h2>
+
+                    <p class="descripcion">
+
+                        Utilizamos el lenguaje de programación
+                        JavaScript junto con nuestro ingenio y
+                        creatividad para crear diversos sitios web
+                        y juegos que demuestran nuestras habilidades
+                        y conocimientos en desarrollo web.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Web</span>
+
+                        <span>JavaScript</span>
+
+                        <span>Creatividad</span>
+
+                    </div>
+
+                </div>
+
+
+                <a href="#" class="boton explorar">
+                    ▶ EXPLORAR
+                </a>
+
+            </section>
+
+
+
+            <!-- ==============================
+                 JUEGO LIMONES
+            =============================== -->
+
+            <section class="proyecto">
+
+                <div class="imagen-proyecto">
+
+                    <img
+                        src="7E2E8E1C-F527-4275-A5B3-EB851AACA745.GIF"
+                        alt="Juego de Limones"
+                    >
+
+                </div>
+
+
+                <div class="proyecto-info">
+
+                    <h2 class="juego">
+                        Juego de Limones
+                    </h2>
+
+
+                    <p class="descripcion">
+
+                        En el proyecto "Juego de Limones" creamos
+                        un juego en el cual nuestro personaje se
+                        mueve de un lado a otro para atrapar todos
+                        los limones posibles.
+
+                        La velocidad aumenta a medida que avanza
+                        el juego.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Arcade</span>
+
+                        <span>JavaScript</span>
+
+                        <span>Diversión</span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="https://juego-limones-ja1z.vercel.app/"
+                    class="boton jugar"
+                >
+                    ▶ JUGAR AHORA
+                </a>
+
+            </section>
+
+
+
+            <!-- ==============================
+                 JUEGO CAZANDO
+            =============================== -->
+
+            <section class="proyecto">
+
+                <div class="imagen-proyecto">
+
+                    <img
+                        src="BE29ABE0-67B7-42B7-888E-3F8BED29C442.GIF"
+                        alt="Juego Cazando"
+                    >
+
+                </div>
+
+
+                <div class="proyecto-info">
+
+                    <h2 class="juego">
+                        Juego Cazando
+                    </h2>
+
+
+                    <p class="descripcion">
+
+                        En el proyecto "Cazando" controlamos a
+                        nuestro personaje para moverlo de arriba
+                        hacia abajo y de izquierda a derecha.
+
+                        El objetivo es atrapar la comida, que
+                        reaparece en una posición aleatoria del mapa.
+
+                    </p>
+
+
+                    <div class="tags">
+
+                        <span>Arcade</span>
+
+                        <span>Aventura</span>
+
+                        <span>Habilidad</span>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    href="https://juego-cazando-ivory.vercel.app/"
+                    class="boton jugar rosa"
+                >
+                    ▶ JUGAR AHORA
+                </a>
+
+            </section>
+
+
+
+            <!-- PIE -->
+
+            <footer>
+
+                <p>
+                    ❝ PROGRAMAR TAMBIÉN ES UNA FORMA DE
+                    <strong>JUGAR</strong>
+                </p>
+
+                <span>— DANIEL-OR9</span>
+
+            </footer>
+
+        </main>
+
+    </div>
+    <script src="musica.js"></script>
+
+</body>
 
 </html>
