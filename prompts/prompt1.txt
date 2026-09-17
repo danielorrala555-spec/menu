@@ -1,0 +1,13 @@
+prompt.1
+   actua como diseñador.Crea un archivo CSS archivo interfas.css para darle un diseño más arcade y estético 
+   al archivo HTML, que tenga un diseño similar a este (AGREGAR UN DIBUJO O BOCETO DE EL RESULTADO ESPERADO)
+   y agerga esta imagen de fondo(agregar imagen), que contenga un menu lateral en el cual se encuentren los 
+   siguientes apartados [inicio, juegos, populares, categoria, perfil, ajustes, contacto, autor, priyectos]
+
+prompt.2
+   as un logo de un perro akita americano con un mando y audigomos con una estetica similar a esta imagen (agrega 
+   imagen de referencia) "escojer la mejor opcion o el mejor diseño"
+   "convertir la imagen en png"
+
+prompt.3
+   agrega este logo en la parte superior del menu de opciones, trata dee no modificar tanto el html y css
