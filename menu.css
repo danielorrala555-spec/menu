@@ -25,10 +25,10 @@ body {
 
     background:
         linear-gradient(
-            rgba(5, 3, 25, 0.60),
-            rgba(12, 3, 30, 0.72)
+            rgba(7, 7, 34, 0.899),
+            rgba(0, 0, 0, 0.858)
         ),
-        url("1CB127EE-4890-43F2-BC6C-127A94D1D749.GIF");
+        url("1743CB3E-8D15-4C95-AE19-28D06F1F700B.GIF");
 
     background-size: cover;
 
@@ -54,7 +54,7 @@ body {
 
     grid-template-columns: 300px 1fr;
 
-    gap: 18px;
+    gap: 0px;
 }
 
 
@@ -70,16 +70,13 @@ body {
 
     flex-direction: column;
 
-    border-radius: 25px;
+    border-radius: 10px;
 
-    border: 2px solid #842dff;
+    border: 1px solid rgba(183, 100, 211, 0.85);
+
 
     background:
-        linear-gradient(
-            180deg,
-            rgba(11, 10, 47, 0.88),
-            rgba(16, 8, 47, 0.78)
-        );
+        rgba(13, 5, 32, 0.709);
 
     backdrop-filter: blur(15px);
 
@@ -87,11 +84,11 @@ body {
 
     box-shadow:
 
-        0 0 15px rgba(76, 190, 255, 0.55),
+        0 0 15px rgba(255, 76, 195, 0.098),
 
-        0 0 30px rgba(138, 43, 226, 0.45),
+        0 0 30px rgba(137, 43, 0, 0.128),
 
-        inset 0 0 25px rgba(77, 37, 180, 0.15);
+        inset 0 0 25px rgba(78, 37, 180, 0.071);
 }
 
 
@@ -166,7 +163,7 @@ body {
 
     flex-direction: column;
 
-    gap: 9px;
+    gap: 5px;
 }
 
 
@@ -189,13 +186,14 @@ body {
     border-radius: 10px;
 
     border: 1px solid
-        rgba(132, 80, 255, 0.25);
+        rgba(67, 51, 91, 0.315);
 
     background:
         linear-gradient(
-            90deg,
-            rgba(47, 39, 105, 0.55),
-            rgba(25, 21, 68, 0.45)
+            120deg,
+            rgba(21, 10, 10, 0.92),
+            rgba(5, 4, 15, 0.826),
+            
         );
 
     transition:
@@ -224,7 +222,7 @@ body {
             rgba(190, 44, 255, 0.8),
 
         inset 0 0 10px
-            rgba(255, 255, 255, 0.1);
+            rgba(255, 255, 255, 0.662);
 }
 
 
@@ -258,13 +256,13 @@ body {
 
     padding: 20px;
 
-    border-radius: 25px;
+    border-radius: 15px;
 
-    border: 2px solid
-        rgba(122, 74, 255, 0.85);
+    border: 1px solid
+        rgba(183, 100, 211, 0.85);
 
     background:
-        rgba(5, 8, 32, 0.82);
+        rgba(13, 5, 32, 0.709);
 
     backdrop-filter:
         blur(18px);
@@ -275,10 +273,10 @@ body {
     box-shadow:
 
         0 0 20px
-            rgba(65, 174, 255, 0.35),
+            rgba(103, 7, 85, 0.218),
 
         0 0 35px
-            rgba(166, 52, 255, 0.25);
+            rgba(151, 14, 255, 0.14);
 }
 
 
@@ -301,14 +299,15 @@ body {
     border-radius: 20px;
 
     border:
-        1px solid rgba(108, 147, 255, 0.55);
+        1px solid rgb(0, 7, 26);
 
     background:
 
         linear-gradient(
-            135deg,
-            rgba(13, 19, 58, 0.95),
-            rgba(22, 11, 59, 0.85)
+            120deg,
+            rgba(215, 19, 19, 0.92),
+            rgba(5, 4, 15, 0.826),
+            
         );
 
     box-shadow:
@@ -411,14 +410,15 @@ body {
 
     border:
         1px solid
-        rgba(80, 111, 255, 0.6);
+         rgba(46, 68, 128, 0.085);
 
     background:
 
         linear-gradient(
             120deg,
-            rgba(20, 27, 71, 0.92),
-            rgba(20, 18, 61, 0.75)
+            rgba(21, 10, 10, 0.92),
+            rgba(5, 4, 15, 0.826),
+            
         );
 }
 
@@ -541,7 +541,7 @@ body {
 
     border:
         1px solid
-        rgba(175, 42, 255, 0.65);
+        rgba(76, 51, 91, 0.65);
 
     background:
 
@@ -564,7 +564,7 @@ body {
         translateY(-3px);
 
     border-color:
-        #da3cff;
+        #943cff;
 
     box-shadow:
 
@@ -660,14 +660,14 @@ body {
         0 0 10px;
 
     color:
-        #ffae00;
+        #f39842;
 
     font-size:
         24px;
 
     text-shadow:
         0 0 8px
-        rgba(255, 162, 0, 0.25);
+        rgba(215, 112, 75, 0.526);
 }
 
 
@@ -722,7 +722,7 @@ body {
         12px;
 
     border:
-        1px solid #ad36ff;
+        1px solid #712d9e;
 
     background:
         rgba(91, 29, 170, 0.18);
@@ -775,28 +775,27 @@ body {
 .jugar {
 
     color:
-        #63ff8b;
+        #7d84ff;
 
     border:
-        2px solid #39ff70;
-
+        2px solid  #6273f5;
     box-shadow:
         0 0 12px
-        rgba(57, 255, 112, 0.55);
+        rgba(57, 179, 255, 0.55);
 }
 
 
 .rosa {
 
     color:
-        #ff69ed;
+        #7a81fb;
 
     border-color:
-        #ff35df;
+        #5669fb;
 
     box-shadow:
         0 0 12px
-        rgba(255, 53, 223, 0.55);
+        rgba(53, 198, 255, 0.55);
 }
 
 
